@@ -32,14 +32,14 @@ public class RepositorioMedia implements Repositorio <Media> {
     }
 
     @Override
-    /*public Media buscar(String id) throws Exception {
+    public Media buscar(String id) throws Exception {
         for (Media media : coleccion) {
             if (media.getId().equals(id)) {
                 return media;
             }
         }
         return null;
-    }*/
+    }
 
     @Override
     public java.util.List<Media> obtenerTodos() {
